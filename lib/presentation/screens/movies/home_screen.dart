@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:movie_app_cero/presentation/providers/providers.dart';
 
-import '../../../domain/entities/movie.dart';
-
 class MovieHomeScreen extends ConsumerWidget {
   static const name = 'home-screen';
   const MovieHomeScreen({super.key});

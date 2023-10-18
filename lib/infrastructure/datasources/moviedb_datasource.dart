@@ -9,7 +9,7 @@ class MoviesDbDatasource extends MoviesDatasource {
   final Dio dio = Dio(
       BaseOptions(baseUrl: 'https://api.themoviedb.org/3', queryParameters: {
     'api_key': Enviroment.theMovieDbKEy,
-    'language': 'es-MX',
+    'language': 'pt-BR',
   }));
   @override
   Future<List<Movie>> getNowPlaying({int page = 1}) async {
